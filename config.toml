@@ -17,11 +17,11 @@ enableRobotsTXT = true
 
 [params]
   Author = "Osvaldo Santana Neto"
-  Avatar = "images/foto.jpg"
+  Avatar = "img/foto.jpg"
   Description = "Description of website for head meta tag"
   Subtitle = "Canal para quem gosta de computação como um hobby."
   ShowBio = false
-  PermalinkText = "🔗"
+  PermalinkText = "permalink"
   EmailAddress = "contato@cdp.yt"
   GitHubUser = "computosdeporao"
   TwitterUser = "computosdeporao"
