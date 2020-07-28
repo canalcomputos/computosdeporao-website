@@ -18,6 +18,7 @@ jobs:
         uses: chabad360/hugo-gh-pages@master
         with:
           githubToken: ${{ secrets.PERSONAL_TOKEN }}
+          branch: master
           cname: cdp.yt
           repo: computosdeporao/computosdeporao.github.io
           args: --gc --minify --cleanDestinationDir
