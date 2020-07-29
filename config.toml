@@ -2,13 +2,11 @@ baseURL = "https://cdp.yt/"
 languageCode = "pt-br"
 DefaultContentLanguage = "pt-br"
 title = "Cômputos de Porão"
-theme = "indigo"
+theme = "minos"
 enableEmoji = true
+enableInlineShortcodes = true
+footnoteReturnLinkContents = "^"
 enableRobotsTXT = true
-
-# SectionPagesMenu = "main"
-# Paginate = 3 # this is set low for demonstrating with dummy content. Set to a higher number
-# googleAnalytics = ""
 
 [sitemap]
   changefreq = "monthly"
@@ -16,13 +14,6 @@ enableRobotsTXT = true
   filename = "sitemap.xml"
 
 [params]
-  Author = "Osvaldo Santana Neto"
-  Avatar = "img/foto.jpg"
-  Description = "Description of website for head meta tag"
-  Subtitle = "Canal para quem gosta de computação como um hobby."
-  ShowBio = false
-  PermalinkText = "permalink"
-  EmailAddress = "contato@cdp.yt"
-  GitHubUser = "computosdeporao"
-  TwitterUser = "computosdeporao"
-  InstagramUser = "computosdeporao"
+  customCss = ["css/custom.css"]
+  smartToc = true
+  noPostNavigation = true

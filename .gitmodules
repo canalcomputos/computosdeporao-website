@@ -1,3 +1,9 @@
 [submodule "themes/indigo"]
 	path = themes/indigo
 	url = https://github.com/AngeloStavrow/indigo.git
+[submodule "themes/harbor"]
+	path = themes/harbor
+	url = https://github.com/matsuyoshi30/harbor.git
+[submodule "themes/minos"]
+	path = themes/minos
+	url = https://github.com/carsonip/hugo-theme-minos.git
